@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesar.css">
+    <title>Document</title>
+</head>
+<body>
+    <model-viewer class="model" src="assets\3dmodel\pizza 2\glb y usdz\scene.glb" camera-controls ar ar-modes="scene-viewer webxr quick-look" ios-src="assets\3dmodel\pizza 2\glb y usdz\Pizza.usdz" auto-rotate camera-target="0.17m 0.9m -0.2m" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto auto" camera-orbit="1121deg 73.56deg 2.925m" poster="assets\3dmodel\pizza 2\glb y usdz\poster.png" environment-image="assets\hdr\tablecloth-red-and-white-texture-1040411-wallhere.com.jpg" skybox-image="assets\hdr\tablecloth-red-and-white-texture-1040411-wallhere.com.jpg">
+        <button onclick="location.href='pizzas.html'" class="Hotspot" slot="hotspot-1" data-position="0.9044086292852496m 0.8727709011909952m -0.7885706443793572m" data-normal="0.07644929642300478m 0.994941650190451m -0.06516607854344265m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Atrás al Menú</div>
+        </button>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            Ver en tu espacio
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
+        
+</body>
+</html>
+

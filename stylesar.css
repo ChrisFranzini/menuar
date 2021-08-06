@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+
+
+.model{
+    position: absolute;
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.Hotspot {
+	box-shadow: 3px 4px 0px 0px #7d3f39;
+	background:linear-gradient(to bottom, #5e1919 5%, #f24437 100%);
+	background-color:#5e1919;
+	border-radius:18px;
+	border:1px solid #c4a9a7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:10px;
+	font-weight:bold;
+	padding:8px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.Hotspot:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #5e1919 100%);
+	background-color:#f24437;
+}
+.Hotspot:active {
+	position:relative;
+	top:1px;
+}

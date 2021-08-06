@@ -1,0 +1,232 @@
+#warning-message{ 
+    display: none; 
+  }
+
+@media only screen and (orientation: portrait){
+    
+    #total { 
+      display:none; 
+      }
+    #warning-message { 
+      display:block; 
+      }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  
+  }
+  body{
+      
+    margin: 0;
+    padding: 0;
+    position:relative;
+    width:100%;
+    height: 100vh;
+    background-image: url('assets/fondo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+* {
+ padding: 0px;
+ margin:0px;
+ 
+}
+
+
+ 
+ @keyframes titulo_menu {
+     0% {
+         transform: scale(0.1);
+         -webkit-transform: scale(0.1);
+     }
+     100% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+     }
+ }
+
+
+
+
+#imgp{
+
+    position: absolute;
+    top: 7%;
+    left: 36%;
+    width: 28%;
+    height: 12vh;
+    animation-name: titulo;
+   animation-duration: 1s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes titulo {
+    0% {
+        transform: scale(0.1);
+        -webkit-transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+
+
+#atras{
+
+    position: absolute;
+     left: 80%;
+    width: 14%;
+    height: auto;
+  
+   animation-name: atras;
+     animation-duration: 1s ;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: forwards;
+  
+  }
+
+
+@keyframes atras{
+
+    0% {opacity: 0; top:0%;}
+    100% {opacity: 100%; top:10%}
+}   
+
+
+ 
+ @keyframes titulo_menu {
+     0% {
+         transform: scale(0.1);
+         -webkit-transform: scale(0.1);
+     }
+     100% {
+         transform: scale(1.0);
+         -webkit-transform: scale(0.7);
+     }
+ }
+
+
+/*---------------------Foto Carne----------------*/
+
+#imagen{
+
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    width: 52%;
+    height: 68vh;
+
+    animation-name: carne1;
+    animation-duration: 1s ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+ 
+ }
+ 
+ @keyframes carne1 {
+    0% {
+        transform: scale(0.1);
+        -webkit-transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+ }
+
+ 
+ @keyframes titulo_menu {
+     0% {
+         transform: scale(0.1);
+         -webkit-transform: scale(0.1);
+     }
+     100% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+     }
+ }
+
+ .botones{
+
+    font-size: 55px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .6);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    -o-transition: all .3s ease;
+
+ }
+
+ .botones:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+
+ }
+
+ .atras{
+
+    left:6%;
+    top: 45%;
+    animation-name: mover_izq;
+    animation-duration: 1s ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+ 
+ }
+ 
+ @keyframes mover_izq {
+     0% {opacity: 0; left: 0%;}
+     100% {opacity: 100%; left: 6%}
+ }
+ 
+
+ .adelante{
+
+    right: 6%;
+    top: 45%;
+    animation-name: mover_der;
+    animation-duration: 1s ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+ 
+ }
+ 
+ @keyframes mover_der {
+     0% {opacity: 0; right: 0%;}
+     100% {opacity: 100%; right:6%}
+ }
+
+ .contenedor{
+width:100%;
+height: auto;
+padding: 20%;
+
+ }
+
+ .potrait2{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+ }
+
+ 

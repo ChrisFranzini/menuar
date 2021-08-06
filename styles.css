@@ -1,0 +1,422 @@
+#warning-message{ 
+    display: none; 
+  }
+
+@media only screen and (orientation: portrait){
+    
+    #total { 
+      display:none; 
+      }
+    #warning-message { 
+      display:block; 
+      }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  
+  }
+
+
+*{
+ /*padding: 0px;*/
+ margin:0px;
+
+}
+
+
+
+.fondo{
+    position: relative;
+    background-image: url('assets/fondo.png');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+.titulo{
+
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  width: 50%;
+  height: auto;
+
+  animation-name: titulo;
+   animation-duration: 1s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes titulo {
+    0% {
+        transform: scale(0.1);
+        -webkit-transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+    
+/*--------------------------ICONOS IZQ-------------------------*/
+#icon-carne{
+
+    position: absolute;
+    opacity: 0;
+    left: 15%;
+    width: 6%;
+    height: auto;
+    animation-name: icon-carne;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.7s;
+
+
+}
+
+@keyframes icon-carne{
+
+    0% {opacity: 0; top:0%;}
+    100% {opacity: 100%; top:30%}
+    
+    }
+
+    .icon-pescado{
+
+        position: absolute;
+        opacity: 0;
+        left: 15%;
+        width: 6%;
+        height: auto;
+        animation-name: icon-pescado;
+       animation-duration: 1.5s ;
+       animation-iteration-count: 1;
+       animation-timing-function: ease;
+       animation-fill-mode: forwards;
+       animation-delay: 0.7s;
+    
+    
+    }
+    
+    @keyframes icon-pescado{
+    
+        0% {opacity: 0; top:0%;}
+        100% {opacity: 100%; top:50%}
+        
+        }
+
+        .icon-pizzas{
+
+            position: absolute;
+            opacity: 0;
+            left: 15%;
+            width: 6%;
+            height: auto;
+            animation-name: icon-pizzas;
+           animation-duration: 1.5s ;
+           animation-iteration-count: 1;
+           animation-timing-function: ease;
+           animation-fill-mode: forwards;
+           animation-delay: 0.7s;
+        
+        
+        }
+        
+        @keyframes icon-pizzas{
+        
+            0% {opacity: 0; top:0%;}
+            100% {opacity: 100%; top:70%}
+            
+            }
+
+/*--------------------------ICONOS DER-------------------------*/
+.icon-ensaladas{
+
+    position: absolute;
+    opacity: 0;
+    left: 81%;
+    width: 6%;
+    height: auto;
+    animation-name: icon-ensaladas;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.7s;
+
+
+}
+
+@keyframes icon-ensaladas{
+
+    0% {opacity: 0; top:0%;}
+    100% {opacity: 100%; top:30%}
+    
+    }
+
+    .icon-postres{
+
+        position: absolute;
+        opacity: 0;
+        left: 81%;
+        width: 5.5%;
+        height: auto;
+        animation-name: icon-postres;
+       animation-duration: 1.5s ;
+       animation-iteration-count: 1;
+       animation-timing-function: ease;
+       animation-fill-mode: forwards;
+       animation-delay: 0.7s;
+    
+    
+    }
+    
+    @keyframes icon-postres{
+    
+        0% {opacity: 0; top:0%;}
+        100% {opacity: 100%; top:49%}
+        
+        }
+
+        .icon-bebidas{
+
+            position: absolute;
+            opacity: 0;
+            left: 81%;
+            width: 5.5%;
+            height: auto;
+            animation-name: icon-bebidas;
+           animation-duration: 1.5s ;
+           animation-iteration-count: 1;
+           animation-timing-function: ease;
+           animation-fill-mode: forwards;
+           animation-delay: 0.7s;
+        
+        
+        }
+        
+        @keyframes icon-bebidas{
+        
+            0% {opacity: 0; top:0%;}
+            100% {opacity: 100%; top:70%}
+            
+            }
+
+
+
+/*--------------------------------BOTONES IZQ----------------------------*/
+
+  #btn-carnes{
+    
+    position: absolute;
+    opacity: 0;
+     left: 20%;
+    width: 23%;
+    height: auto;
+   background-size: 100% 100%;
+   border: none;
+   padding: 2.2%;
+   border-radius: 10px;
+   
+   animation-name: aparecer;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.8s;
+
+}
+
+@keyframes aparecer{
+
+0% {opacity: 0; top:0%;}
+100% {opacity: 100%; top:25%}
+
+}
+
+#btn-pescados{
+    
+    position: absolute;
+    opacity: 0;
+     left: 20%;
+    width: 23%;
+    height: auto;
+   background-size: 100% 100%;
+   border: none;
+   padding: 2.2%;
+   border-radius: 10px;
+   
+   animation-name: pescados;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.8s;
+
+}
+
+@keyframes pescados{
+
+0% {opacity: 0; top:0%;}
+100% {opacity: 100%; top:45%}
+
+}
+
+#btn-pizzas{
+    
+    position: absolute;
+    opacity: 0;
+     left: 20%;
+    width: 23%;
+    height: auto;
+   background-size: 100% 100%;
+   border: none;
+   padding: 2.2%;
+   border-radius: 10px;
+   
+   animation-name: pizzas;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.8s;
+
+}
+
+@keyframes pizzas{
+
+0% {opacity: 0; top:0%;}
+100% {opacity: 100%; top:65%}
+
+}
+
+/*--------------------------------BOTONES DER----------------------------*/
+
+#btn-ensaladas{
+    
+    position: absolute;
+    opacity: 0;
+     left: 54%;
+    width: 23%;
+    height: auto;
+   background-size: 100% 100%;
+   border: none;
+   padding: 2.2%;
+   border-radius: 10px;
+   
+   animation-name: ensaladas;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.8s;
+
+}
+
+@keyframes ensaladas{
+
+0% {opacity: 0; top:0%;}
+100% {opacity: 100%; top:25%}
+
+}
+
+#btn-postres{
+    
+    position: absolute;
+    opacity: 0;
+     left: 54%;
+    width: 23%;
+    height: auto;
+   background-size: 100% 100%;
+   border: none;
+   padding: 2.2%;
+   border-radius: 10px;
+   
+   animation-name: postres;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.8s;
+
+}
+
+@keyframes postres{
+
+0% {opacity: 0; top:0%;}
+100% {opacity: 100%; top:45%}
+
+}
+
+#btn-bebidas{
+    
+    position: absolute;
+    opacity: 0;
+     left: 54%;
+    width: 23%;
+    height: auto;
+   background-size: 100% 100%;
+   border: none;
+   padding: 2.2%;
+   border-radius: 10px;
+   
+   animation-name: bebidas;
+   animation-duration: 1.5s ;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 0.8s;
+
+}
+
+@keyframes bebidas{
+
+0% {opacity: 0; top:0%;}
+100% {opacity: 100%; top:65%}
+
+}
+
+/*-----linea-----*/
+
+.separa{
+
+    position: absolute;
+    top: 30%;
+    left: 50.8%;
+    width: 0.6%;
+    height: auto;
+    animation-name: separa;
+    animation-duration: 1s ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+ 
+ }
+ 
+ @keyframes separa {
+     0% {
+         transform: scale(0.1);
+         -webkit-transform: scale(0.1);
+     }
+     100% {
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+     }
+ }
+
+ .potrait{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+
+
+ }

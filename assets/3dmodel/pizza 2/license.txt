@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pizza
+* source:	https://sketchfab.com/3d-models/pizza-c4ee70d74a7843f8bc89ca8d86a6398f
+* author:	OCBacon (https://sketchfab.com/OCBacon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pizza" (https://sketchfab.com/3d-models/pizza-c4ee70d74a7843f8bc89ca8d86a6398f) by OCBacon (https://sketchfab.com/OCBacon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
